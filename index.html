@@ -78,46 +78,6 @@
 
 </body>
 
-<script>
-
-
-  $('.scrollspy').scrollSpy({
-  scrollOffset: 0
-  })
-
-
-
-
-$(window).scroll(function() {
-
-    var winHeight = $(this).height();
-    var scrollTop = $(this).scrollTop();
-    
-    console.log("windHeight", winHeight)
-    console.log("scrollTop",scrollTop)
-
-    if(scrollTop< 1600){
-
-      $("html").removeClass("bg2").addClass("bg1")
-
-    }
-
-    if(scrollTop >= 3018){
-
-      $("html").removeClass("bg1").removeClass("bg3").addClass("bg2");
-
-    }
-
-    if(scrollTop >= 4450){
-
-      $("html").removeClass("bg2").addClass("bg3");
-
-    }
-
-});
-
-</script>
-
 
 </html>
 
