@@ -22,6 +22,8 @@
         $scope.volumeOn = false;
         $scope.zoomPageOpen = false;
         $scope.fadeoutleft = false
+        $scope.fadeoutright = false;
+        $scope.fadeinleft = false;
         $scope.fadeinright = true;
 
         $scope.fadein    =true
