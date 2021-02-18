@@ -47,7 +47,7 @@
                 }
 
         }
-        $scope.click= function(){
+        $scope.left= function(){
 
             $scope.audio.play()
             if(!$scope.fadeoutleft){
@@ -66,7 +66,25 @@
             }
 
         }
+        $scope.right= function(){
 
+            $scope.audio.play()
+            if($scope.fadeoutleft){
+
+                $scope.fadeinright = false;
+                $scope.fadeoutleft = true
+
+            }else{
+
+                $scope.fadeinright = true;
+
+                $scope.fadeoutleft = false
+                
+
+
+            }
+
+        }
 
 
     }]);

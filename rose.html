@@ -107,7 +107,7 @@
 
       <div class = "row animated  " style="border:10px solid black; border-radius:25px;" >
 
-            <div class = 'col s12 animated' ng-class="{'fadeOutLeft': fadeoutleft , 'fadeInRight':fadeinright }">
+            <div class = 'col s12 animated fast' ng-class="{'fadeOutLeft': fadeoutleft , 'fadeInRight':fadeinright }">
               <img src="./images/CHARTUI.svg" class="img-responsive" >
 
             </div>
@@ -123,7 +123,7 @@
           <div class = "col s2 center-align"style="border-radius:25px; border:6px solid #ab9d80;">
           
             <br>
-            <i class = "material-icons" style="font-size:80px; color:#ab9d80 ">navigate_before
+            <i class = "material-icons" ng-click="left()"style="font-size:80px; color:#ab9d80 ">navigate_before
 
             </i>
             <br>
@@ -137,7 +137,7 @@
        <div class = "col s2 center-align"style="border-radius:25px; border:6px solid #ab9d80;">
           
         <br>
-        <i ng-click="click()" class = "material-icons" style="font-size:80px; color:#ab9d80 ">navigate_next
+        <i ng-click="right()" class = "material-icons" style="font-size:80px; color:#ab9d80 ">navigate_next
 
         </i>
         <br>
