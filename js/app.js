@@ -25,6 +25,9 @@
         $scope.fadeoutright = false;
         $scope.fadeinleft = false;
         $scope.fadeinright = false;
+        $scope.chart1 = true;
+        $scope.chart2 = false;
+        $scope.currentChart = 0;
 
         $scope.fadein    =true
 
@@ -52,14 +55,14 @@
         $scope.left= function(){
 
             $scope.audio.play()
-            if(!$scope.fadeinleft){
+            if($scope.currentChart>=0){
 
-                $scope.fadeinleft = false
-                $scope.fadeoutleft = true;
+                $scope.currentChart--
 
             }else{
-                $scope.fadeoutleft = false;
-                $scope.fadeinleft = true
+
+               $scope.currentChart = 2;
+          
 
             }
 
@@ -67,14 +70,15 @@
         $scope.right= function(){
 
             $scope.audio.play()
-            if(!$scope.fadeoutright){
+            if($scope.currentChart<2){
 
-                $scope.fadeoutright = true
-                $scope.fadeoutleft = false;
+                $scope.currentChart++
 
             }else{
 
-                $scope.fadeinright = true;
+               $scope.currentChart = 0;
+          
+
             }
         }
 
