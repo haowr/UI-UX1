@@ -69,16 +69,16 @@
         $scope.right= function(){
 
             $scope.audio.play()
-            if($scope.fadeoutleft){
+            if(!$scope.fadeoutright){
 
-                $scope.fadeinright = false;
-                $scope.fadeoutleft = true
+                $scope.fadeinleft = false;
+                $scope.fadeoutright = true
 
             }else{
 
-                $scope.fadeinright = true;
+                $scope.fadeinleft = true;
 
-                $scope.fadeoutleft = false
+                $scope.fadeoutright = false
                 
 
 
