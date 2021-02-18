@@ -43,6 +43,10 @@
                 }
 
         }
+        $scope.click= function(){
+
+            console.log("click")
+        }
 
 
 
