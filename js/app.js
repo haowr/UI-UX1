@@ -52,6 +52,10 @@
                 }
 
         }
+        $scope.tap = function(){
+
+            $scope.audio.play()
+        }
         $scope.left= function(){
 
             $scope.audio.play()
