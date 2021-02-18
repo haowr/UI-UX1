@@ -59,7 +59,7 @@
 
             }else{
                 $scope.fadeoutleft = false;
-                $scope.fadeoutright = true
+                $scope.fadeinleft = true
 
             }
 
