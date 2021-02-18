@@ -300,13 +300,7 @@ background: linear-gradient(21deg, rgba(157,193,221,1) 0%, rgba(216,228,237,1) 8
 
     
 }
-video{ 
-  top:-2px;
-  vertical-align: bottom;
-  background:transparent;
-  backface-visibility: hidden;
-perspective: 1000;overflow:hidden;
- }
+
 #sidebarlinks{
     position: fixed;
     top:50%;
