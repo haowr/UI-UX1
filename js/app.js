@@ -55,7 +55,7 @@
         $scope.left= function(){
 
             $scope.audio.play()
-            if($scope.currentChart>=0){
+            if($scope.currentChart>0){
 
                 $scope.currentChart--
 
