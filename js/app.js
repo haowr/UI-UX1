@@ -57,7 +57,12 @@
                 $scope.fadeinleft = false
                 $scope.fadeoutleft = true;
 
+            }else{
+                $scope.fadeoutleft = false;
+                $scope.fadeoutright = true
+
             }
+
         }
         $scope.right= function(){
 
