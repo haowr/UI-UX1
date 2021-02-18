@@ -49,6 +49,7 @@
         }
         $scope.click= function(){
 
+            $scope.audio.play()
             if(!$scope.fadeoutleft){
 
                 $scope.fadeinright = false;
