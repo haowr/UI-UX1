@@ -1,4 +1,4 @@
-<html  class=" animated fadeIn fast">
+<html ng-app="store" ng-controller="mainCtrl"   class=" animated fadeIn fast">
 
 <head>
 
@@ -28,8 +28,8 @@
 
   <!-- JavaScript Dependencies -->
 
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/jquery-ui.min.js"></script>   
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/jquery-ui.min.js"></script>   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -107,7 +107,7 @@
 
       <div class = "row animated  " style="border:10px solid black; border-radius:25px;" >
 
-            <div class = 'col s12'>
+            <div class = 'col s12 animated fadeOutLeft' ng-class="{'fadeOutLeft': fadeoutleft, 'fadeInRight':!fadeoutleft}">
               <img src="./images/CHARTUI.svg" class="img-responsive" >
 
             </div>
@@ -144,16 +144,17 @@
         <br>
 
     </div>
+  </div>
+
     <div class = "col s6"></div>
     <div class = "row">
 
-            <div class = "col s6 ">
+            <div class = "col s6 left-align">
               <i class = "material-icons" style="font-size:300px; color:black ">pie_chart_outlined     </i>
                    </div>
                    <div class = "col s6"></div>
 
     </div>
-        </div>
       </div>
       
       <div class = "row animated  " >

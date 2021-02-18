@@ -3,7 +3,7 @@
 (function () {
 
 
-    var app = angular.module('store', [ 'chart.js','appRoutes']);
+    var app = angular.module('store', [ 'appRoutes']);
 
 
 
@@ -21,6 +21,7 @@
         $scope.zoomPageOpen = false;
         $scope.volumeOn = false;
         $scope.zoomPageOpen = false;
+        $scope.fadeoutleft = false
 
         $scope.audio = new Audio('../audio/ui_tap-variant-01.wav')
 
@@ -45,7 +46,16 @@
         }
         $scope.click= function(){
 
-            console.log("click")
+            if(!$scope.fadeoutleft){
+
+                    $scope.fadeoutleft = true
+            }else{
+
+                $scope.fadeoutleft = false
+
+
+            }
+
         }
 
 
