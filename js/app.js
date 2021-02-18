@@ -22,6 +22,9 @@
         $scope.volumeOn = false;
         $scope.zoomPageOpen = false;
         $scope.fadeoutleft = false
+        $scope.fadeinright = true;
+
+        $scope.fadein    =true
 
         $scope.audio = new Audio('../audio/ui_tap-variant-01.wav')
 
@@ -48,10 +51,15 @@
 
             if(!$scope.fadeoutleft){
 
-                    $scope.fadeoutleft = true
+                $scope.fadeinright = false;
+                $scope.fadeoutleft = true
+
             }else{
 
+                $scope.fadeinright = true;
+
                 $scope.fadeoutleft = false
+                
 
 
             }
