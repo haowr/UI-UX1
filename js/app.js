@@ -52,10 +52,17 @@
                 }
 
         }
+        $scope.openShine = function(){
+
+            $window.location.href = "/shinebright";
+
+
+        }
         $scope.tap = function(){
 
             $scope.audio.play()
         }
+
         $scope.left= function(){
 
             $scope.audio.play()
@@ -71,6 +78,7 @@
             }
 
         }
+
         $scope.right= function(){
 
             $scope.audio.play()
