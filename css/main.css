@@ -6,7 +6,6 @@ html, body {
     min-width:100%;
     min-height:100%;
     scroll-behavior: smooth;
-  background-color:white;
 
 
 }
@@ -19,6 +18,7 @@ canvas{
 
 
 }
+/*
 .bg1{
 
   background: url('./bck.JPG') no-repeat center center fixed  ; 
@@ -37,6 +37,7 @@ canvas{
   -o-background-size: cover;
    background-size:cover;
 }
+*/
 .fadeinn{
   opacity:1;
   transition:1s;
@@ -48,6 +49,7 @@ canvas{
   opacity:0;
   transition:1s;
 }
+/*
 .bg2{
 
   background: url('./bck2.JPG') no-repeat center center fixed  ; 
@@ -63,6 +65,7 @@ canvas{
   -o-background-size: cover;
    background-size:cover;
 }
+*/
 
 nav {
   height: 60px;

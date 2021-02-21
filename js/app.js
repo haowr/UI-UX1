@@ -3,7 +3,7 @@
 (function () {
 
 
-    var app = angular.module('store', [ 'nxGeometryy','appRoutes']);
+    var app = angular.module('store', [ 'appRoutes']);
 
 
 
