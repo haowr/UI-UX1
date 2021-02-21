@@ -9,15 +9,7 @@ html, body {
 
 
 }
-canvas{
-  
-  position:absolute;
-  display:block;
-  top:30vh;;
-  z-index:100000;
 
-
-}
 /*
 .bg1{
 

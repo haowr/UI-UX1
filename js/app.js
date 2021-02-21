@@ -45,6 +45,7 @@
 
                     $scope.contactPageOpen  = true;
                     $scope.homePageOpen = false;
+                    
                     $scope.soundOpen        = false;
                     $scope.soundPageOpen = false;
                     $scope.lightsPageOpen    = false;
